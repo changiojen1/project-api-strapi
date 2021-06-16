@@ -13,7 +13,7 @@ module.exports = {
                 _sort: "cid:asc"});
             console.log("entities1",entities);
 
-            return await ctx.render("crown2_xx",{
+            return await ctx.render("`crown2_xx`",{
                 data:entities,
                 title:"Crown Clothing 2021",
             })
